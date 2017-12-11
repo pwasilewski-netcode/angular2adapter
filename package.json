@@ -1,0 +1,42 @@
+{
+	"name": "angular2adapter",
+	"version": "0.0.1",
+	"description": "Use the new Angular annotations in old AngularJS",
+	"author": "Paweł Wasilewski",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/pwasilewski-netcode/angular2adapter.git"
+	},
+	"keywords": [
+		"AngularJS",
+		"Angular2",
+		"TypeScript",
+		"Angular Annotations"
+	],
+	"scripts": {
+		"build": "webpack",
+		"start": "webpack-dev-server",
+		"test": "echo \"Error: no test has been specified yet\" && exit 1"
+	},
+	"homepage": "https://github.com/pwasilewski-netcode/angular2adapter#readme",
+	"dependencies": {
+		"angular": "^1.4.14",
+		"angular-ui-router": "^0.4.3",
+		"function-arguments": "^1.0.8"
+	},
+	"devDependencies": {
+		"@types/angular": "^1.6.32",
+		"@types/angular-ui-router": "^1.1.40",
+		"@types/node": "^8.0.46",
+		"clean-webpack-plugin": "^0.1.17",
+		"copy-webpack-plugin": "^4.2.0",
+		"file-loader": "^1.1.5",
+		"html-loader": "^0.5.1",
+		"html-webpack-plugin": "^2.30.1",
+		"ts-loader": "^3.0.5",
+		"typescript": "^2.5.3",
+		"webpack": "^3.8.1",
+		"webpack-dev-server": "^2.9.3"
+	}
+}

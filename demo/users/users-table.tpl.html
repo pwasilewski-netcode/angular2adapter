@@ -1,0 +1,10 @@
+<table border="1" ng-show="vm.ngModel.length > 0">
+	<thead>
+		<th>ID</th>
+		<th>Name</th>
+	</thead>
+	<tr ng-repeat="user in vm.ngModel track by $index" ng-click="vm.ngShowDetails($index)">
+		<td>{{ user.id }}</td>
+		<td>{{ user.firstName }} {{ user.lastName }}</td>
+	</tr>
+</table>

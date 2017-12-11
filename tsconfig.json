@@ -1,0 +1,28 @@
+{
+	"compileOnSave": false,
+	"compilerOptions": {
+		
+		"target": "es5",
+		"module": "commonjs",
+		"moduleResolution": "node",
+		"allowJs": true,
+		"sourceMap": true,
+		"preserveConstEnums": true,
+		"experimentalDecorators": true,
+		"emitDecoratorMetadata": true,
+		"noEmitOnError": true,
+		"noImplicitReturns": true,
+		"outDir": "./dist",
+		"baseUrl": ".",
+		"paths": {
+			"*": ["*", "demo/*"]
+		}
+	},
+	"exclude": [
+		"./node_modules",
+		"./dist",
+		"./amd",
+		"./gulpfile.js",
+		"./webpack.config.js"
+	]
+}
