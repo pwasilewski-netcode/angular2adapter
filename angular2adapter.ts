@@ -345,7 +345,7 @@ function register(moduleName?: string,
 		try {
 			return angular.module(moduleId);
 		}
-		catch {
+		catch (ex) {
 			return null;
 		}
 	}

@@ -1,7 +1,6 @@
 {
 	"compileOnSave": false,
 	"compilerOptions": {
-		
 		"target": "es5",
 		"module": "commonjs",
 		"moduleResolution": "node",
@@ -12,11 +11,7 @@
 		"emitDecoratorMetadata": true,
 		"noEmitOnError": true,
 		"noImplicitReturns": true,
-		"outDir": "./dist",
-		"baseUrl": ".",
-		"paths": {
-			"*": ["*", "demo/*"]
-		}
+		"outDir": "./dist"
 	},
 	"exclude": [
 		"./node_modules",
